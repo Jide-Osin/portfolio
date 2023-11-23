@@ -27,7 +27,7 @@ header{
     align-items: center;
     justify-content: center;
     font-family: 'Poppins',sans-serif;
-    font-weight
+    font-weight: 600;
 }
 header > h1{
     color: antiquewhite;
