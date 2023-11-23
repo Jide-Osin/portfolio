@@ -18,6 +18,7 @@ body{
 p{
     color: #1e1e21;
     font-size: 14px;
+    font-family: 'poppins',sans-serif;
 }
 header{
     text-align: center;
@@ -119,6 +120,7 @@ header > h1{
     color: #fff;
     text-align: center;
     transition: 0.5s;
+    font-family: 'poppins',sans-serif;
 }
 .container .card:hover .face.face2 h2{
     /* color:#c3073f; */
