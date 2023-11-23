@@ -44,6 +44,7 @@ header > h1{
     position: relative;
     width: 400px;
     height: 400px;
+    border-radius: 20px;
     margin: 0 auto;
     background: #fff;
     transition: 0.5s;
@@ -61,18 +62,20 @@ header > h1{
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 .container .card .face.face1{
     box-sizing: border-box;
     padding:  20px 20px 20px 20px;
     text-align: center;
     background: #c7c6c6;
+    border-radius: 20px;
     /* color: #c3073f; */
     color: #07c39d;
 
 }
 .container .card .face.face1 h2{
-    margin-top: 60px;
+    margin-top: 50px;
 }
 .container .card .face.face1 a{
     display: inline-block;
@@ -99,20 +102,38 @@ header > h1{
 .container .card .face.face2{
     /* background: #c3073f; */
     background: #07c39d;
-
+    border-radius: 20px;
     transition: 0.5s;
 }
-
+.container .card .face.face2.fidelity{
+    background: #9ef3ac;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+.container .card .face.face2.kiira{
+    background: #bbd6fb;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+.container .card .face.face2.qore{
+    background: #80d59e;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+.container .card .face.face2.signature{
+    background: #0b0b0b;
+    border-radius: 20px;
+    transition: 0.5s;
+}
 .container .card:hover .face.face2{
     height: 80px;
-    width: 150px;
+    width: 200px;
     border-radius: 20px;
     top: 40px;
     left: 50%;
     transform: translateX(-50%);
     background: transparent;
-    /* border:2px solid #c3073f; */
-    border:2px solid #05a182;
+    /* border:2px solid #05a182; */
 
 }
 .container .card .face.face2 h2{
