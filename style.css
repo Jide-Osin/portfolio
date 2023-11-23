@@ -15,6 +15,9 @@ body{
     background: #1e1e21;
     padding: 10vh;
 }
+h3{
+    color: antiquewhite;
+}
 p{
     color: #1e1e21;
     font-size: 14px;
@@ -75,6 +78,21 @@ header > h1{
     color: #07c39d;
 
 }
+
+.container .card .face.face1.fidelity{
+    background: #9ef3ac;
+}
+.container .card .face.face1.kiira{
+    background: #bbd6fb;
+}
+.container .card .face.face1.qore{
+    background: #a9f9fa;
+}
+.container .card .face.face1.signature{
+    background: #f7e2a4;
+}
+
+
 .container .card .face.face1 h2{
     margin-top: 50px;
 }
@@ -102,7 +120,7 @@ header > h1{
 } */
 .container .card .face.face2{
     /* background: #c3073f; */
-    background: #07c39d;
+    /* background: #07c39d; */
     border-radius: 20px;
     transition: 0.5s;
 }
@@ -117,12 +135,12 @@ header > h1{
     transition: 0.5s;
 }
 .container .card .face.face2.qore{
-    background: #80d59e;
+    background: #a9f9fa;
     border-radius: 20px;
     transition: 0.5s;
 }
 .container .card .face.face2.signature{
-    background: #0b0b0b;
+    background: #f7e2a4;
     border-radius: 20px;
     transition: 0.5s;
 }
