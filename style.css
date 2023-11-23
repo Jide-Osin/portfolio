@@ -13,7 +13,7 @@ body{
     align-items: center;
     min-height: 100vh;
     background: #1e1e21;
-    padding-bottom: 10vh;
+    padding: 10vh;
 }
 p{
     color: #1e1e21;
