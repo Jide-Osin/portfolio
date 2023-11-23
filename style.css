@@ -16,6 +16,7 @@ body{
     min-height: 100vh;
     background: #1e1e21;
     padding: 0 10vh 10vh 10vh;
+    min-height: 70;
 }
 .naigationPanel{
     display: flex;
@@ -75,8 +76,8 @@ h1 {
 }
 .nav-tabs {
 	display: flex;
-	font-weight: 600;
-	font-size: 18px;
+	/* font-weight: 600; */
+	font-size: 1.2em;
 	list-style: none;
     align-items: center;
     justify-content: center;
@@ -119,7 +120,8 @@ p{
 }
 header{
     text-align: center;
-    height: 70vh;
+    min-height: auto;
+    padding: 10em 0em;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -131,11 +133,12 @@ header > h1{
     color: antiquewhite;
 }
 .container{
-    width: 900px;
+    /* width: 900px; */
+    width: 55em;
     height: 110vh;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-    gap:15px;
+    grid-template-columns: repeat(auto-fit, minmax(25em, 1fr));
+    gap: 5em;
     margin:0 auto;
     /* padding: 20px; */
 }
@@ -145,8 +148,10 @@ header > h1{
 } */
 .container .card{
     position: relative;
-    width: 400px;
-    height: 400px;
+    /* width: 400px;
+    height: 400px; */
+    width: 22em;
+    height: 22em;
     border-radius: 20px;
     margin: 0 auto;
     background: #fff;
@@ -307,10 +312,11 @@ header > h1{
         width: 100vw;
     }
 	.nav-tabs {
-		flex-direction: column;
-		align-items: flex-end;
-		margin-top: 80px;
-		width: 100%;
+		/* flex-direction: column;
+		align-items: flex-end; */
+		/* margin-top: 80px; */
+		/* width: 100%; */
+        font-size: 1em;
 	}
 
 	.nav-tab:not(:last-child) {
