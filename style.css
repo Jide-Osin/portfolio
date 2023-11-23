@@ -22,7 +22,7 @@ p{
 }
 header{
     text-align: center;
-    height: 90vh;
+    height: 70vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -34,7 +34,7 @@ header > h1{
 }
 .container{
     width: 900px;
-    height: 130vh;
+    height: 110vh;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     gap:15px;
@@ -152,8 +152,23 @@ header > h1{
     font-size: 2em;
 }
 
-/* .fidelity{
-    background-image: url(./assets/Fidelity_Bank_Plc_Main_Logo.svg);
-    width: 300px;
-    height: 400px;
-} */
+
+/*MEDIAQUERIES*/
+@media only all and (max-width: 1300px) {
+    
+
+}
+@media only all and (max-width: 1200px) {
+    
+
+}
+    @media only all and (max-width: 900px) {
+   
+
+}
+@media only all and (max-width: 600px) {
+    .container{
+        width: 550px
+    }
+
+}
