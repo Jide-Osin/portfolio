@@ -39,6 +39,7 @@ header > h1{
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     gap:15px;
     margin:0 auto;
+    padding: 20px;
 }
 .container .card{
     position: relative;
