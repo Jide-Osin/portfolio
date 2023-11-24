@@ -40,7 +40,7 @@ h1 {
 
 .nav-wrapper {
 	display: flex;
-	position: relative;
+	position: fixed;
     top: 5vh;
 	flex-direction: row;
 	flex-wrap: nowrap;
@@ -135,7 +135,7 @@ header > h1{
 .container{
     /* width: 900px; */
     width: 55em;
-    height: 110vh;
+    height: 105vh;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(25em, 1fr));
     gap: 5em;
@@ -208,8 +208,9 @@ header > h1{
     /* color: #c3073f; */
     color: #07c39d;
     border:2px solid #05a182;
+    border-radius: 20px;
     
-    transition: 0.5s;
+    transition: ease-out .5s;
 }
 .container .card .face.face1 a:hover{
     color:#fff;
@@ -226,13 +227,13 @@ header > h1{
     /* background: #c3073f; */
     /* background: #07c39d; */
     border-radius: 20px;
-    transition: 0.5s;
+    /* transition: 0.5s; */
 
 }
 .container .card .face.face2.fidelity{
     background: #9ef3ac;
     border-radius: 20px;
-    transition: 0.5s;
+    transition: ease-in-out .5s;
 }
 .container .card .face.face2.kiira{
     background: #bbd6fb;
@@ -250,12 +251,16 @@ header > h1{
     transition: 0.5s;
 }
 .container .card:hover .face.face2{
-    height: 80px;
-    width: 200px;
-    border-radius: 20px;
-    top: 40px;
-    left: 50%;
-    transform: translateX(-50%);
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    /* height: 80px; */
+    /* width: auto; */
+    /* border-radius: 20px; */
+    /* top: 40px; */
+    /* left: 50%; */
+    /* transform: translate(-50%); */
+    transform: translateY(-30%);
     background: transparent;
     /* border:2px solid #05a182; */
 
@@ -273,9 +278,8 @@ header > h1{
     justify-content: center;
 }
 .container .card:hover .face.face2 h2{
-    /* color:#c3073f; */
     color: #07c39d;
-    /* font-size: 2em; */
+
 }
 
 
