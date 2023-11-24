@@ -155,7 +155,7 @@ header > h1{
     border-radius: 20px;
     margin: 0 auto;
     background: #fff;
-    transition: ease-in .5s;
+    transition: ease-in-out .5s;
 }
 .container .card:hover{
     box-shadow: 0 30px 50px rgba(0,0,0,.2);
@@ -254,13 +254,13 @@ header > h1{
     /* display: flex;
     align-items: center;
     justify-content: center; */
-    /* height: 80px; */
+    height: 2.2em;
     /* width: auto; */
     /* border-radius: 20px; */
-    /* top: 40px; */
+    top: 50px;
     /* left: 50%; */
     /* transform: translate(-50%); */
-    transform: translateY(-30%);
+    /* transform: translateY(-30%); */
     background: transparent;
     /* border:2px solid #05a182; */
 
