@@ -16,7 +16,7 @@ body{
     min-height: 100vh;
     background: #1e1e21;
     padding: 0 10vh 10vh 10vh;
-    min-height: 70;
+    /* min-height: 70; */
 }
 .naigationPanel{
     display: flex;
@@ -80,30 +80,32 @@ h1 {
 	font-size: 1.2em;
 	list-style: none;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     text-decoration: none;
+    width: 100%;
 }
-.nav-tabs .nav-tab:hover{
+
+.nav-tab:hover{
     color: rgb(123, 228, 241);
 }
-.nav-tab:not(:last-child) {
+/* .nav-tab:not(:last-child) {
 	padding: 10px 25px;
 	margin: 0;
 	border-right: 1px solid #eee;
-}
+} */
 
-.nav-tab:last-child {
+/* .nav-tab:last-child {
 	padding: 10px 0 0 25px;
-}
+} */
 
-.nav-tab,
+/* .nav-tab,
 .menu-btn {
 	cursor: pointer;
 }
 
 .hidden {
 	display: none;
-}
+} */
 
 
 
@@ -284,7 +286,76 @@ header > h1{
 
 
 /*MEDIAQUERIES*/
-@media only all and (max-width: 1300px) {
+
+/* Media Query for Mobile Devices */ 
+
+@media (min-width: 374px) and (max-width: 480px) { 
+    body { 
+        /* background-color: red;  */
+    } 
+    .container{
+        height: max-content;
+    }
+    h3{
+        padding: 0;
+        width: 100vw;
+        height: max-content;
+        font-size: 12px;
+    }
+    .nav-wrapper{
+        font-size: 11px;
+        width: 70vw;
+    }
+} 
+  
+/* Media Query for low resolution  Tablets, Ipads */ 
+@media (min-width: 481px) and (max-width: 767px) { 
+    body { 
+        
+    } 
+    .container{
+        height: max-content;
+    }
+    .nav-wrapper{
+        font-size: 11px;
+        width: 70vw;
+    }
+} 
+  
+/* Media Query for Tablets Ipads portrait mode */ 
+@media (min-width: 768px) and (max-width: 1024px){ 
+    body { 
+    } 
+    .container{
+        height: max-content;
+    }
+    .nav-wrapper{
+        font-size: 12px;
+        width: 70vw;
+    }
+} 
+  
+/* Media Query for Laptops and Desktops */ 
+@media (min-width: 1025px) and (max-width: 1280px){ 
+    body { 
+
+    } 
+    .container{
+        height: max-content;
+    }
+} 
+  
+/* Media Query for Large screens */ 
+@media (min-width: 1281px) { 
+    body { 
+        /* background-color: white;  */
+    } 
+    .container{
+        height: max-content;
+    }
+} 
+
+/* @media only all and (max-width: 1300px) {
     
 
 }
@@ -316,10 +387,10 @@ header > h1{
         width: 100vw;
     }
 	.nav-tabs {
-		/* flex-direction: column;
-		align-items: flex-end; */
-		/* margin-top: 80px; */
-		/* width: 100%; */
+		flex-direction: column;
+		align-items: flex-end;
+		margin-top: 80px;
+		width: 100%;
         font-size: 1em;
 	}
 
@@ -401,4 +472,4 @@ header > h1{
 
 @media screen and (max-width: 800px) {
 	
-}
+} */
