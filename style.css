@@ -186,13 +186,13 @@ header > h1{
 }
 
 .container .card .face.face1.fidelity{
-    background: #9ef3ac;
+    background: #c1f5ca;
 }
 .container .card .face.face1.kiira{
     background: #bbd6fb;
 }
 .container .card .face.face1.qore{
-    background: #a9f9fa;
+    background: #bbf7f8;
 }
 .container .card .face.face1.signature{
     background: #f7e2a4;
@@ -233,7 +233,7 @@ header > h1{
 
 }
 .container .card .face.face2.fidelity{
-    background: #9ef3ac;
+    background: #c1f5ca;
     border-radius: 20px;
     transition: ease-in-out .5s;
 }
@@ -243,7 +243,7 @@ header > h1{
     transition: 0.5s;
 }
 .container .card .face.face2.qore{
-    background: #a9f9fa;
+    background: #bbf7f8;
     border-radius: 20px;
     transition: 0.5s;
 }
@@ -289,7 +289,7 @@ header > h1{
 
 /* Media Query for Mobile Devices */ 
 
-@media (min-width: 374px) and (max-width: 480px) { 
+@media (min-width: 354px) and (max-width: 480px) { 
     body { 
         /* background-color: red;  */
     } 
